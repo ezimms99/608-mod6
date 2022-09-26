@@ -99,11 +99,42 @@ Intro to Data Science: Working with CSV Files:
 
 
 
-**Chapter 17 Notes: Big data - Hadoop, Spark, NoSQL, and IoT **
+**Chapter 17 Notes: Big data - Hadoop, Spark, NoSQL, and IoT**
 
 SQL:
 - Structured Query Language 
 
+A books Database: 
+- read_sql executes a sql query and returns a data frame containing results. 
+- SELECT gets rows and columns from tables. 
+- * grabs everything from the table. 
+- FROM is the place you are grabbing the data. 
+
+SELECT Queries:
+- Can insert title names of columns to grab specific columns from the data. 
+
+WHERE clause:
+- Specifies the results of a query. 
+- Like is used for pattern matching, searching for strings that match a given pattern. 
+- Using % specifies a wildcard position to autofill any possibilities. 
+- Using an _ indicates a single wildcard character. 
+
+ORDER BY clause: 
+- Sorts the queries results in a specified order. 
+- Can also order by multiple columns. 
+- Can also change which columns are ordered what way. 
+
+Merging Data From Multiple Tables: 
+- Inner Join: Joins matching data from two tables. 
+
+INSERT INTO: 
+- Add data to a SQL table. 
+
+UPDATE:
+- Modifies existing data 
+
+DELETE FROM: 
+- Deletes data from a table. 
 
 
 
